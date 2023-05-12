@@ -40,6 +40,10 @@ Note that `decode` mutates and advances the iterator. This way, if you have mult
 
 The library comes with unit tests for the `encode` and `decode` functions. You can run these tests using the command `cargo test`.
 
+## VBE format
+
+![](img/figure1.png)
+
 ## Contributing
 
 Contributions to this project are welcome. Please feel free to submit a pull request or open an issue on the project's GitHub page.
