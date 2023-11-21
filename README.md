@@ -1,4 +1,4 @@
-# VBE (Variable Byte Encoding) Rust Library
+# `vbe-rs` – A Variable Byte Encoding Rust Library
 
 This Rust library provides functionality for Variable Byte Encoding (VBE), a form of lossless data compression that is commonly used for encoding integers in a way that results in smaller output size for smaller numbers. This is particularly useful in applications such as databases and indexes, where many numbers may be small and memory efficiency is important.
 
@@ -8,7 +8,7 @@ To use this library in your Rust project, add the following to your `Cargo.toml`
 
 ```toml
 [dependencies]
-vbe = { git = "https://github.com/bazzilic/vbe", tag = "v0.1.0" }
+vbe = { git = "https://github.com/bazzilic/vbe-rs", tag = "v0.1.0" }
 ```
 
 Then, import the `vbe` module in your Rust code:
