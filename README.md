@@ -8,7 +8,7 @@ To use this library in your Rust project, add the following to your `Cargo.toml`
 
 ```toml
 [dependencies]
-vbe = { git = "https://github.com/bazzilic/vbe-rs", tag = "v0.1.0" }
+vbe = { git = "https://github.com/bazzilic/vbe-rs", tag = "v0.1.1" }
 ```
 
 Then, import the `vbe` module in your Rust code:
