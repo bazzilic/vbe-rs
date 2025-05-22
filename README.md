@@ -34,7 +34,7 @@ match vbe::decode(encoded.into_iter()) {
 }
 ```
 
-Note that `decode` mutates and advances the iterator. This way, if you have multiple VBE-encoded numbers in a byte array, you can continue calling ``decode` using the same iterator to decode the numbers one by one.
+Note that `decode` mutates and advances the iterator. This way, if you have multiple VBE-encoded numbers in a byte array, you can continue calling `decode` using the same iterator to decode the numbers one by one.
 
 ## Testing
 
